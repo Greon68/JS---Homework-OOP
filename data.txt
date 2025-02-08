@@ -6,3 +6,4 @@
                         @babel/cli @babel/core @babel/preset-env
                         babel-loader css-loader html-loader html-webpack-plugin style-loader
                          jest @types/jest eslint eslint-plugin-jest
+
