@@ -11,13 +11,14 @@ import Zombie from "./zombie"
 let bowman1 = new Bowman ('Goga',"Bowman");
 console.log(bowman1);
 
-// bowman1.levelUp()
-// console.log(bowman1);
+bowman1.levelUp()
+console.log(bowman1);
 bowman1.damage(100);
+console.log(bowman1);
+bowman1.levelUp()
 console.log(bowman1);
 
 // bowman1.damage(100)
-
 // console.log(bowman1);
 // bowman1.damage(10)
 // console.log(bowman1);

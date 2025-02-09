@@ -43,11 +43,11 @@
 
 
 export default class Character {
-    constructor(name,type,health=100,level=1,attack,defence){
+    constructor(name,type,attack,defence){
         this.name=name;
         this.type=type;
-        this.health=health;
-        this.level=level;
+        this.health=100;
+        this.level=1;
         this.attack=attack;
         this.defence=defence;
 
@@ -115,7 +115,7 @@ export default class Character {
 }
 
 // ПРОВЕРКА:
-// let hero = new Character ('SuperHero','Magician',100,8,80,90)
+// let hero = new Character ('SuperHero','Magician',80,90)
 // console.log(hero)
 
 // let warrior = new Character('Bowman','Bowman', 100 , 1, 40, 50);
