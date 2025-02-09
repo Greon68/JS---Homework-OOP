@@ -115,8 +115,9 @@ export default class Character {
 }
 
 // ПРОВЕРКА:
-// let hero = new Character ('SuperHero','Magician',80,90)
-// console.log(hero)
+// bowman1.levelUp()
+// console.log(bowman1);
+// console.log(bowman1);
 
 // let warrior = new Character('Bowman','Bowman', 100 , 1, 40, 50);
 // console.log(warrior);
