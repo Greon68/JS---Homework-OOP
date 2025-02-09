@@ -6,18 +6,18 @@ test('создание экземпляра класса Character', ()=>{
         name: 'SuperHero',
          type: 'Magician', 
          health: 100,
-        level: 8,
+        level: 1,
         attack: 80,
         defence: 90,
         };
-    const result = new Character ('SuperHero','Magician',100,8,80,90);
+    const result = new Character ('SuperHero','Magician',80,90);
     expect(result).toEqual(hero)
 
 })   
 
 test('тест метода levelUp', ()=>{
 
-    const warrior = new Character('Bowman','Bowman', 50 , 1, 40, 50);
+    const warrior = new Character('Bowman','Bowman', 40, 50);
     warrior.levelUp();
 
     const warriorImproved = {
@@ -35,7 +35,7 @@ test('тест метода levelUp', ()=>{
 
 test ('тест метода damage', ()=>{
 
-    const warrior = new Character('Bowman','Bowman', 100 , 1, 40, 50);
+    const warrior = new Character('Bowman','Bowman',  40, 50);
     warrior.damage(30);
 
     const warriorWounded = {

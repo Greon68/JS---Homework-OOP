@@ -38,8 +38,8 @@ import Zombie from "./zombie"
 // let undead = new Undead ('Idbun',"Undead");
 // console.log(undead);
 
-let zombie = new Zombie ('Gosha',"Zombie");
-console.log(zombie);
+// let zombie = new Zombie ('Gosha',"Zombie");
+// console.log(zombie);
 
 // let daemon = new Daemon ('Kobah',"Daemon");
 // console.log(daemon);
