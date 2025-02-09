@@ -8,15 +8,16 @@ import Zombie from "./zombie"
 
 
 
-let bowman1 = new Bowman ('Goga',"Bowman");
-console.log(bowman1);
+// let bowman1 = new Bowman ('Goga',"Bowman");
+// console.log(bowman1);
 
-bowman1.levelUp()
-console.log(bowman1);
-bowman1.damage(100);
-console.log(bowman1);
-bowman1.levelUp()
-console.log(bowman1);
+// bowman1.levelUp()
+// console.log(bowman1);
+// bowman1.damage(100);
+// console.log(bowman1);
+// bowman1.levelUp()
+// console.log(bowman1);bowman1.levelUp()
+// console.log(bowman1);
 
 // bowman1.damage(100)
 // console.log(bowman1);
@@ -37,8 +38,8 @@ console.log(bowman1);
 // let undead = new Undead ('Idbun',"Undead");
 // console.log(undead);
 
-// let zombie = new Zombie ('Gosha',"Zombie");
-// console.log(zombie);
+let zombie = new Zombie ('Gosha',"Zombie");
+console.log(zombie);
 
 // let daemon = new Daemon ('Kobah',"Daemon");
 // console.log(daemon);

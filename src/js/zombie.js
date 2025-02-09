@@ -1,15 +1,8 @@
 import Character from "./character"
 export default class Zombie extends Character {
-    constructor(name,type,health,level,attack,defence){
-    super(name,type,health,level,attack=40,defence=10);
-    
+    constructor(name,type){
+    super(name,type,40,10);
+   
     }
 
-    levelUp(){
-        super.levelUp()
-    }
-
-    damage(points){
-        super.damage(points)
-    }
 }
